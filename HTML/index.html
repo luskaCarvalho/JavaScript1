@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../Javascript/funcoes.js"></script>
+    <title>Página Principal</title>
+</head>
+<body>
+    <form>
+        <label name="pNum">Primeiro Número: </label>
+        <input type="number" name="tpNUm" id="tpNum"><br><br>
+
+        <label name="sNum">Segundo Número: </label>
+        <input type="number" name="tsNum" id="tsNum"><br><br> 
+
+        <label name="tNum">Terceiro Número: </label>
+        <input type="number" name="ttNum" id="ttNum"><br><br>
+    </form>
+
+    <button type="submit" onclick="somar()"> + </button>
+    <button type="submit" onclick="subtrair()"> - </button>
+    <button type="submit" onclick="multiplicar()"> * </button>
+    <button type="submit" onclick="dividir()"> / </button>
+    <button type="submit" onclick="tabuada()"> Tabuada </button>
+    <button type="submit" onclick="potencia()"> Potência </button>
+    <button type="submit" onclick="raiz()"> Raiz </button>
+    <button type="submit" onclick="bhaskara()"> Bhaskara 
+    <button type="submit" onclick="numerosPares()"> Números Pares de 1 a 20 </button>
+    <button type="submit" onclick="numerosCem()"> Soma de números de 1 a 100 </button>
+    <button type="submit" onclick="numerosMultiplos()"> Multiplos de 5 </button>
+    <button type="submit" onclick="numerosContados()"> Números contados </button><br><br>
+    
+    <textArea id="resultado" rows="100" cols="30" readonly></textArea>
+</body>
+</html>
